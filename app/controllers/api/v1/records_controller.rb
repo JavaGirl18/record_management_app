@@ -1,6 +1,6 @@
 module Api
   module V1
-      class RecordsController < ApplicationController
+    class RecordsController < ApplicationController
       before_action :set_record, only: [:show, :update, :destroy]
 
       # GET /records
