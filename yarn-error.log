@@ -1,0 +1,36 @@
+Arguments: 
+  /usr/local/Cellar/node/11.13.0/bin/node /usr/local/bin/yarn add tailwingcss -d
+
+PATH: 
+  /Users/vcooper/.rvm/gems/ruby-2.4.5/bin:/Users/vcooper/.rvm/gems/ruby-2.4.5@global/bin:/Users/vcooper/.rvm/rubies/ruby-2.4.5/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/vcooper/.rvm/gems/ruby-2.4.5/bin:/Users/vcooper/.rvm/gems/ruby-2.4.5@global/bin:/Users/vcooper/.rvm/rubies/ruby-2.4.5/bin:/Users/vcooper/.rvm/bin:/Users/vcooper/.rvm/bin
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  10.16.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/tailwingcss: Not found
+      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:66255:18)
+      at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:129397:22)
+      at Request.emit (events.js:198:13)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:130369:10)
+      at Request.emit (events.js:198:13)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:130291:12)
+      at Object.onceWrapper (events.js:286:20)
+      at IncomingMessage.emit (events.js:203:15)
+      at endReadableNT (_stream_readable.js:1145:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
